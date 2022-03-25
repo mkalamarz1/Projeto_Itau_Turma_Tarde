@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 0;
+    background-color: rgb(247,156,96);
+}
+
+#mainTable {
+    background-color: #ffffff;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 30px;
+    border-radius: 20px;  
+}
+
+.tabela {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.tabela td, .tabela th {
+    text-align: center;
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 3px;
+}
+
+.tabela thead{
+    background-color: #e8e8e8;
+}
+
+.tabela caption {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+  }
+

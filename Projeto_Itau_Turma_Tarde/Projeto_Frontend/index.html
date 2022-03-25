@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto JAVA</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+
+    <main id="mainTable">
+        <table class="tabela">
+          <caption>Cliente</caption>
+          <thead>
+            <tr>
+              <th scope="col">Agência</th>
+              <th scope="col">Conta</th>
+              <th scope="col">Nome</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Telefone</th>
+              <th scope="col">Saldo</th>
+            </tr>
+          </thead>
+          <tbody class="tabelaBodyCliente">
+          </tbody>
+        </table>
+        
+        <table class="tabela">
+            <caption>Fluxo de Caixa</caption>
+            <thead>
+              <tr>
+                <th scope="col">Agência</th>
+                <th scope="col">Conta</th>
+                <th scope="col">Fluxo</th>
+                <th scope="col">Entrada</th>
+                <th scope="col">Saída</th>
+              </tr>
+            </thead>
+            <tbody class="tabelaBodyFluxo"> 
+            </tbody>
+        </table>
+        
+        <table class="tabela">
+            <caption>Relacionando as tabelas de correntista ao fluxo de caixa</caption>
+            <thead>
+              <tr>
+                <th scope="col">Agência</th>
+                <th scope="col">Conta</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Entrada</th>
+                <th scope="col">Saída</th>
+              </tr>
+            </thead>
+            <tbody class="tabelaBodyInnerJoin"> 
+            </tbody>
+        </table>   
+    </main>
+
+    <script src="./js/projetojs.js"></script>
+    
+</body>
+</html>
